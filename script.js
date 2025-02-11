@@ -1,6 +1,6 @@
 class Rectangle {
   constructor(width, height) {
-    if (width <= 0 || height <= 0) throw new Error("Invalid dimensions");
+    if (width <= 0 || height <= 0);
     this._width = width;
     this._height = height;
   }
@@ -20,7 +20,7 @@ class Rectangle {
 
 class Square extends Rectangle {
   constructor(side) {
-    if (side <= 0) throw new Error("Invalid side length");
+    if (side <= 0);
     super(side, side);
   }
 
