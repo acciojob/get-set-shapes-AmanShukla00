@@ -1,6 +1,6 @@
 class Rectangle {
   constructor(width, height) {
-    if (width <= 0 || height <= 0);
+    if (width <= 0 , height <= 0);
     this._width = width;
     this._height = height;
   }
